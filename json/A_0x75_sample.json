@@ -1,0 +1,89 @@
+{
+    "priorServiceName": "GetRobotDataFromYaskawa",
+    "priorDirectoryOfService": "control-yaskawa-robot-r",
+    "priorRuntime": {
+        "type": "",
+        "run": ""
+    },
+    "transactionCodes": {
+        "transactionCode0": "8b89859895f62b388744710506a52e4cae91cc954f039b511854b83d",
+        "transactionCode1": "",
+        "transactionCode2": ""
+    },
+    "startAt": "2020-03-18T08:22:00.668748Z",
+    "nextServiceList": [
+        {
+            "nextServiceName": "SetRobotDataFromMongoDBtoRedis",
+            "nextDirectoryOfService": "set-robot-data-from-mongodb-to-redis",
+            "nextRuntime": {
+                "type": "",
+                "run": ""
+            },
+            "nextServiceDevice": "uranus"
+        }
+    ],
+    "metadata": [
+        {
+            "key": "RobotData",
+            "value": {
+                "Command": "75",
+                "Result": true,
+                "BaseObjectType": "TosouMotomachi",
+                "ComponentType": "SentouLine",
+                "MotionDeviceSystemType": "RobotDataCollections",
+                "MotionDeviceIdentifier": "YR-923756",
+                "MotionDeviceType": "MOTOMAN-MPX1150",
+                "ComponentName": "MOTOMAN-MPX1150",
+                "Manufacturer": "Yaskawa",
+                "Model": "MOTOMAN-MPX",
+                "DataForm": "32bit_integer",
+                "RobotData": [
+                    {
+                        "ArrayNo": 101,
+                        "ParameterSet": 16,
+                        "RobotForm": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "ToolNo": 0,
+                        "UserCoordinates": 0,
+                        "RobotFormExtension": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "Axes01": 1045000,
+                        "Axes02": 0,
+                        "Axes03": 960000,
+                        "Axes04": 1800000,
+                        "Axes05": 4294067296,
+                        "Axes06": 0,
+                        "Axes07": 0,
+                        "Axes08": 0
+                    }
+                ]
+            }
+        },
+        {
+            "key": "timestamp",
+            "value": "2020-03-18T17:22:00.692726"
+        }
+    ],
+    "finishAt": "2020-03-18T08:22:00.700761Z",
+    "outputFileName": "/home/latona/uranus/Data/control-yaskawa-robot-r/A_20200318082200700761_GetRobotDataFromYaskawa.json",
+    "outputHeader": {
+        "type": "file",
+        "content": "output-json"
+    }
+}

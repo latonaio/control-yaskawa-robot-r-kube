@@ -1,0 +1,30 @@
+{
+  "command": [
+    {
+      "trigger": {
+        "command": "78",
+        "arrayNo": 3001,
+        "elementName": "IO",
+        "conditions": ">255",
+        "always": 0
+      },
+      "nextServiceList": [
+        {
+          "nextServiceName": "NextService",
+          "nextDirectoryOfService": "/home/latona/next/Runtime/next-service",
+          "nextServiceDevice": "next",
+          "nextRuntime": {
+            "type": "python",
+            "run": "main.py"
+          }
+        }
+      ],
+      "metadata": [
+        {
+          "key": "camera",
+          "value": "on"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "nextServiceList": [{
+        "nextServiceName": "GetRobotDataFromYaskawa",
+        "nextDirectoryOfService": "control-yaskawa-robot-r",
+        "nextRuntime": {
+            "type": "",
+            "run": ""
+        }
+    }]
+}

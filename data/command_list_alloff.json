@@ -1,0 +1,78 @@
+{
+  "command": [
+    {
+      "command": "71",
+      "detail": "alarm data",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [],
+      "interval": 5000,
+      "expire_time": 600
+    },
+    {
+      "command": "74",
+      "detail": "axis name",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "101"
+      ],
+      "interval": 60000,
+      "expire_time": 3600
+    },
+    {
+      "command": "75",
+      "detail": "robot position",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "77",
+      "detail": "robot torque",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "78",
+      "detail": "robot signal",
+      "elementNo": "00",
+      "processNo": "0e",
+      "arrayNo": [],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "79",
+      "detail": "robot register",
+      "elementNo": "00",
+      "processNo": "0e",
+      "arrayNo": [],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "88",
+      "detail": "operating time",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [],
+      "interval": 1000,
+      "expire_time": 2
+    },
+    {
+      "command": "89",
+      "detail": "system information",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [],
+      "interval": 86400000,
+      "expire_time": 172800
+    }
+  ]
+}

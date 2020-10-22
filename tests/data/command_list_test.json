@@ -1,0 +1,22 @@
+{
+  "command": [
+    {
+      "detail": "alarm data",
+      "command": "70",
+      "arrayNo": ["0001","0002"],
+      "elementNo": "00",
+      "processNo": "00",
+      "interval": 1000,
+      "expire_time": 1000
+    },
+    {
+      "detail": "status data",
+      "command": "72",
+      "arrayNo": ["0001"],
+      "elementNo": "00",
+      "processNo": "00",
+      "interval": 100,
+      "expire_time": 1000
+    }
+  ]
+}

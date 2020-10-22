@@ -1,0 +1,19 @@
+{
+  "command": [
+    {
+      "trigger": {
+        "command": "78",
+        "arrayNo": 3001,
+        "elementName": "IO",
+        "conditions": ">255",
+        "always": 0
+      },
+      "connectionKey": "alpha",
+      "metadata": [
+        {
+          "camera": "on"
+        }
+      ]
+    }
+  ]
+}

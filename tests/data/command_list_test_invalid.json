@@ -1,0 +1,12 @@
+{
+  "command": [
+    {
+      "command": "70",
+      "detail": "alarm data",
+      "itemNo": 0,
+      "process": 1,
+      "listNo": [1],
+      "interval": 1000
+    },
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "command": [
+    {
+      "command": "71",
+      "detail": "alarm data",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "1001",
+        "1002",
+        "1003",
+        "1004",
+        "1005",
+        "1006",
+        "1007",
+        "1008",
+        "1009",
+        "1010",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "3001",
+        "3002",
+        "3003",
+        "3004",
+        "3005",
+        "3006",
+        "3007",
+        "3008",
+        "3009",
+        "3010",
+        "4001",
+        "4002",
+        "4003",
+        "4004",
+        "4005",
+        "4006",
+        "4007",
+        "4008",
+        "4009",
+        "4010"
+      ],
+      "interval": 1000,
+      "expire_time": 600
+    },
+    {
+      "command": "72",
+      "detail": "status data",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "01"
+      ],
+      "interval": 1000,
+      "expire_time": 60
+    },
+    {
+      "command": "73",
+      "detail": "executing jsb status",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "interval": 1000,
+      "expire_time": 60
+    },
+    {
+      "command": "74",
+      "detail": "axis name",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "101"
+      ],
+      "interval": 60000,
+      "expire_time": 3600
+    },
+    {
+      "command": "75",
+      "detail": "robot position",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "101"
+      ],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "77",
+      "detail": "robot torque",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "01"
+      ],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "78",
+      "detail": "",
+      "elementNo": "01",
+      "processNo": "0e",
+      "arrayNo": [
+        "1001",
+        "2701",
+        "3001"
+      ],
+      "interval": 50,
+      "expire_time": 86400
+    },
+    {
+      "command": "88",
+      "detail": "operating time",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "1",
+        "10",
+        "110",
+        "210",
+        "301"
+      ],
+      "interval": 1000,
+      "expire_time": 2
+    },
+    {
+      "command": "89",
+      "detail": "system information",
+      "elementNo": "00",
+      "processNo": "01",
+      "arrayNo": [
+        "11",
+        "101"
+      ],
+      "interval": 86400000,
+      "expire_time": 172800
+    }
+  ]
+}
