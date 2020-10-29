@@ -4,6 +4,41 @@
 
 このマイクロサービスをご利用いただくには、別途安川電機製ロボットコントローラYRC1000が必要となります。
 
+## このマイクロサービスの振る舞い
+
+### 入力
+
+なし
+
+### 出力
+
+```
+"metadata" {
+      "RobotData": {
+            "Command": コマンド番号(16進数値の文字列変換),
+            "Result": 処理成否(True/False),
+            "ExpireTime": データ保持期間(ms),
+            "BaseObjectType": ベースオブジェクトタイプ(文字列),
+            "ComponentType": コンポーネントタイプ(文字列),
+            "MotionDeviceSystemType": 設備システムタイプ(文字列),
+            "MotionDeviceIdentifier": 設備ID(文字列),
+            "MotionDeviceType": 設備タイプ(文字列),
+            "ComponentName": コンポーネント名(文字列),
+            "Manufacturer": メーカー(文字列),
+            "Model": モデル(文字列),
+            "DataForm": データフォーマット(データフォーマットを表す文字列),
+            "RobotData": [ ロボットからのコマンド応答データ（命令毎固有フォーマット） ]
+      },
+      "TargetAddress": 通信相手ロボットのIPアドレス,
+      "timestamp": タイムスタンプ（ロボットからの処理結果応答日時）
+}
+```
+
+### YRC1000との入出力について
+
+YRC1000の高速Ethernetサーバ機能に準ずる
+（YRC1000の取扱説明書をご確認ください）
+
 ## セットアップ手順
 
 ### aion-coreをセットアップする
