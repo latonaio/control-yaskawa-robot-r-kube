@@ -1,4 +1,4 @@
-FROM l4t:latest
+FROM latonaio/l4t:latest
 
 ENV POSITION=Runtime \
     SERVICE=control-yaskawa-robot-r \
