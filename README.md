@@ -15,16 +15,22 @@ control-yaskawa-robot-r-kubeは、aion-coreのプラットフォーム上での�
 
 ## セットアップ手順
 ### 1. aion-coreのセットアップ
-事前に下記リポジトリからaion-coreのセットアップを行ってください。   
-https://github.com/latonaio/aion-core
+事前に下記リポジトリからaion-coreのセットアップを行ってください。
+```   
+git clone https://github.com/latonaio/aion-core
+```
 
 ### 2. ベースイメージの準備
-下記リポジトリからベースイメージlatonaio/l4tを用意してください。   
-https://github.com/latonaio/python-base-images
+下記リポジトリからベースイメージlatonaio/l4tを用意してください。 
+```  
+git clone https://github.com/latonaio/python-base-images
+```
 
 ### 3. リポジトリのクローン
-このリポジトリをgit cloneしてください。   
+このリポジトリをgit cloneしてください。  
+``` 
 git clone https://github.com/latonaio/control-yaskawa-robot-r-kube.git
+```
 
 ### 4.Dockerイメージのビルド
 付属のスクリプトを使用して、control-yaskawa-robot-rのDockerイメージをビルドしてください。
