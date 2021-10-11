@@ -1,7 +1,7 @@
 {
     "nextServiceList": [{
         "nextServiceName": "GetRobotDataFromYaskawa",
-        "nextDirectoryOfService": "control-yaskawa-robot-r",
+        "nextDirectoryOfService": "control-yaskawa-robot-r-kube",
         "nextRuntime": {
             "type": "",
             "run": ""

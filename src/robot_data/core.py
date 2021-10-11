@@ -12,8 +12,8 @@ from aion.logger import lprint, lprint_exception
 
 from .yaskawa import command
 
-SERVICE_NAME = "control-yaskawa-robot-r"
-ADDRESS = "192.168.2.1"
+SERVICE_NAME = "control-yaskawa-robot-r-kube"
+ADDRESS = "192.168.X.X"
 PORT = 10040
 JSON_PATH = os.path.join(
     "/var/lib/aion/Data/control-yaskawa-robot-r_1/command_list.json")

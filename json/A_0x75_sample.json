@@ -1,12 +1,12 @@
 {
     "priorServiceName": "GetRobotDataFromYaskawa",
-    "priorDirectoryOfService": "control-yaskawa-robot-r",
+    "priorDirectoryOfService": "control-yaskawa-robot-r-kube",
     "priorRuntime": {
         "type": "",
         "run": ""
     },
     "transactionCodes": {
-        "transactionCode0": "8b89859895f62b388744710506a52e4cae91cc954f039b511854b83d",
+        "transactionCode0": "XXXXXXXXXXXXXXXXXXXX",
         "transactionCode1": "",
         "transactionCode2": ""
     },
@@ -28,8 +28,8 @@
             "value": {
                 "Command": "75",
                 "Result": true,
-                "BaseObjectType": "TosouMotomachi",
-                "ComponentType": "SentouLine",
+                "BaseObjectType": "XXXXXXXXXX",
+                "ComponentType": "XXXXXXXXX",
                 "MotionDeviceSystemType": "RobotDataCollections",
                 "MotionDeviceIdentifier": "YR-923756",
                 "MotionDeviceType": "MOTOMAN-MPX1150",

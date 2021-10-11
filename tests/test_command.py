@@ -13,7 +13,7 @@ import os
 TEST_JSON_PATH = "./data/command_list_test.json"
 DEFAULT_JSON_PATH = "../data/command_list.json"
 TEST_INVALID_JSON_PATH = "./data/command_list_test_invalid.json"
-HOST = "127.0.0.1"
+HOST = "127.0.X.X"
 PORT = 10101
 BUF_SIZE = 4896
 TIMEOUT_INTERVAL = 1
